@@ -1,0 +1,7 @@
+build/
+*.db
+*.db-wal
+*.db-shm
+.DS_Store
+spike/*/probe
+spike/*/strprobe

@@ -1,0 +1,4 @@
+[package]
+name = "vecprobe"
+version = "0.1.0"
+exclude = ["native/sqlite3.c", "native/sqlite-vec.c"]

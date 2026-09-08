@@ -1,0 +1,7 @@
+[tools]
+ruby = "3.4"
+
+[tasks.spinel]
+description = "Build the pinned Spinel compiler and spin tool in vendor/spinel"
+dir = "vendor/spinel"
+run = ["make deps", "make"]
